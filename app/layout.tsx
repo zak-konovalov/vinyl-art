@@ -65,7 +65,7 @@ export default function RootLayout({
                 streetAddress: siteConfig.contacts.address,
                 addressCountry: "RU",
               },
-              openingHours: siteConfig.contacts.workingHours,
+              openingHours: siteConfig.contacts.workingHoursDisplay,
             }),
           }}
         />

@@ -79,7 +79,7 @@ export default function ContactsPage() {
 
           <div>
             <p className="font-semibold">Режим работы:</p>
-            <p>{siteConfig.contacts.workingHours}</p>
+            <p>{siteConfig.contacts.workingHoursDisplay}</p>
           </div>
 
         </div>

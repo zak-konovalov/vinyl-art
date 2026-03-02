@@ -21,8 +21,8 @@ export const siteConfig = {
     address:
       "Белгородская область, п. Борисовка, площадь Ушакова, д. 5",
 
-    workingHoursDisplay: "Пн–Пт: 7:00–17:00",
-	workingHoursSchema: "Mo-Fr 07:00-17:00", 
+    workingHoursDisplay: "Пн–Пт: 8:00–17:00",
+	workingHoursSchema: "Mo-Fr 08:00-17:00", 
     // ⚠ Для schema лучше использовать формат Mo-Fr 07:00-17:00
   },
 
