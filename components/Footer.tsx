@@ -145,7 +145,7 @@ export default function Footer() {
                 </svg>
               </IconWrapper>
               <a
-                href={siteConfig.contacts.telegram}
+                href={siteConfig.social.telegram}
                 target="_blank"
                 className="hover:text-yellow-400 transition"
               >
@@ -161,7 +161,7 @@ export default function Footer() {
                 </svg>
               </IconWrapper>
               <a
-                href={siteConfig.contacts.instagram}
+                href={siteConfig.social.instagram}
                 target="_blank"
                 className="hover:text-yellow-400 transition"
               >

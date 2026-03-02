@@ -58,7 +58,7 @@ export default function ContactsPage() {
           <div>
             <p className="font-semibold">Telegram:</p>
             <a
-              href={siteConfig.contacts.telegram}
+              href={siteConfig.social.telegram}
               target="_blank"
               className="hover:text-yellow-500"
             >
@@ -69,7 +69,7 @@ export default function ContactsPage() {
           <div>
             <p className="font-semibold">Instagram:</p>
             <a
-              href={siteConfig.contacts.instagram}
+              href={siteConfig.social.instagram}
               target="_blank"
               className="hover:text-yellow-500"
             >
