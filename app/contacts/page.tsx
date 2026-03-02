@@ -62,7 +62,7 @@ export default function ContactsPage() {
               target="_blank"
               className="hover:text-yellow-500"
             >
-              {siteConfig.contacts.telegram}
+              {siteConfig.social.telegram}
             </a>
           </div>
 
@@ -73,7 +73,7 @@ export default function ContactsPage() {
               target="_blank"
               className="hover:text-yellow-500"
             >
-              {siteConfig.contacts.instagram}
+              {siteConfig.social.instagram}
             </a>
           </div>
 
