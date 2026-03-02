@@ -137,20 +137,21 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
 
           <div>
-            <h2 className="text-3xl font-bold mb-6">
-              Полный цикл производства
-            </h2>
-            <p className="text-gray-600 mb-6">
-              Работаем от идеи до монтажа. Собственное производство
-              позволяет контролировать качество и сроки выполнения.
-            </p>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-neutral-900">
+			  Полный цикл производства
+			</h2>
 
-            <ul className="space-y-3 text-gray-700">
-              <li>✔ Современное оборудование</li>
-              <li>✔ Опытные специалисты</li>
-              <li>✔ Работаем по договору</li>
-              <li>✔ Монтаж по всей области</li>
-            </ul>
+			<p className="text-lg md:text-base text-neutral-800 leading-relaxed mb-6">
+			  Работаем от идеи до монтажа. Собственное производство позволяет
+			  контролировать качество и сроки выполнения.
+			</p>
+
+			<ul className="space-y-3 text-lg md:text-base text-neutral-900">
+			  <li>✔ Современное оборудование</li>
+			  <li>✔ Опытные специалисты</li>
+			  <li>✔ Работаем по договору</li>
+			  <li>✔ Монтаж по всей области</li>
+			</ul>
           </div>
 
           <div className="relative h-80">

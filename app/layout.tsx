@@ -71,7 +71,7 @@ export default function RootLayout({
         />
 
         <Header />
-
+		<div className="h-20" />  {/* spacer */}
         {/* ===== ОСНОВНОЙ КОНТЕНТ ===== */}
         <main className="min-h-screen max-w-6xl mx-auto px-4 py-10">
           {children}
