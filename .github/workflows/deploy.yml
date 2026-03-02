@@ -1,6 +1,7 @@
 name: Deploy to VPS
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -8,8 +9,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
+      - uses: actions/checkout@v3
       - name: Deploy to server
         uses: appleboy/ssh-action@v1.0.3
         with:
